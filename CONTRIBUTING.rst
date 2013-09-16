@@ -1,8 +1,6 @@
 How To Contribute
 =================
 
-Contributions are very welcome. The easiest way is to fork this repo, and then
-make a pull request from your fork. The first time you make a pull request, you
-may be asked to sign a Contributor Agreement.
+Contributions are very welcome.
 
-@@@ link to code conventions
+Please read `How To Contribute <https://github.com/edx/edx-platform/wiki/How-To-Contribute>`_ for details.
