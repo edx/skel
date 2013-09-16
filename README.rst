@@ -42,11 +42,9 @@ Please see ``LICENSE.txt`` for details.
 How to Contribute
 -----------------
 
-Contributions are very welcome. The easiest way is to fork this repo, and then
-make a pull request from your fork. The first time you make a pull request, you
-may be asked to sign a Contributor Agreement.
+Contributions are very welcome.
 
-Please see ``CONTRIBUTING.rst`` for details.
+Please read `How To Contribute <https://github.com/edx/edx-platform/wiki/How-To-Contribute>`_ for details.
 
 Reporting Security Issues
 -------------------------
