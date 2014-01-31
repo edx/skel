@@ -29,7 +29,7 @@ This should be the simplest set of steps just to show that things are working.
 Documentation (please modify)
 -----------------------------
 
-The docs for XXX is on Read The Docs:  https://XXX.readthedocs.org 
+The docs for XXX is on Read The Docs:  https://XXX.readthedocs.org
 
 License
 -------
@@ -39,12 +39,15 @@ otherwise noted.
 
 Please see ``LICENSE.txt`` for details.
 
-How to Contribute
+How To Contribute
 -----------------
 
 Contributions are very welcome.
 
-Please read `How To Contribute <https://github.com/edx/edx-platform/wiki/How-To-Contribute>`_ for details.
+Please read `How To Contribute <https://github.com/edx/edx-platform/blob/master/CONTRIBUTING.rst>`_ for details.
+
+Even though it was written with ``edx-platform`` in mind, the guidelines
+should be followed for Open edX code in general.
 
 Reporting Security Issues
 -------------------------
