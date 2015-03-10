@@ -10,17 +10,20 @@ To use this for your repo:
 
 - Copy the files in the root to the root of your repo.
 - Decide whether you are using the AGPL or Apache license. If you are unsure,
-  ask the open source team.
+  read `Open edX Licensing`_ or ask the open source team.
 
-  - If your repo is AGPL-licensed, copy the files in the agpl directory to your
-    root.
-  - If your repo is Apache-licensed, copy the files in the apache directory to
+  - If your repo is AGPL-licensed, copy the files in the ``agpl`` directory to
     your root.
+
+  - If your repo is Apache-licensed, copy the files in the ``apache`` directory
+    to your root.
 
 - Edit all the files to make them appropriate for your repo.
 
-[your readme begins below here:]
+.. _Open edX Licensing: https://open.edx.org/open-edx-licensing 
 
+
+[your readme begins below here:]
 
 
 
