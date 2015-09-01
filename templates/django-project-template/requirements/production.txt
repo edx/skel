@@ -1,0 +1,8 @@
+# Packages required in a production environment
+-r base.txt
+
+MySQL-python==1.2.5
+PyYAML==3.11
+gunicorn==19.3.0
+gevent==1.0.2
+nodeenv==0.13.4
