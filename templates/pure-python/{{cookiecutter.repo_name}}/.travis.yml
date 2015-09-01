@@ -1,0 +1,9 @@
+language: python
+python:
+  - "{{cookiecutter.python_version}}"
+install:
+  - pip install coveralls
+script:
+  - make test doc quality
+after_success:
+  - coveralls

@@ -1,0 +1,8 @@
+{
+    "project_name": "Nameless",
+    "repo_name": "{{cookiecutter.project_name|lower|replace(' ', '-')}}",
+    "pkg_name": "{{cookiecutter.repo_name|replace('-', '_')}}",
+    "full_name": "Your Full Name",
+    "email": "your-email@example.com",
+    "license": "AGPL"
+}

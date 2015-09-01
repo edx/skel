@@ -1,0 +1,13 @@
+#!/bin/bash
+DEFAULT_MAX=9
+
+pylint {{cookiecutter.project_name}} | tee /tmp/pylint-{{cookiecutter.project_name}}.log
+ERR=`grep -E "^[C|R|W|E]:" /tmp/pylint-{{cookiecutter.project_name}}.log | wc -l`
+MAX=${1-$DEFAULT_MAX}
+if [ $ERR -ge $MAX ]; then
+    echo "too many pylint violations: $ERR (max is $MAX)"
+    exit 1
+else
+    echo "$ERR pylint violations in total (max is $MAX)"
+    exit 0
+fi
